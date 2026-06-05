@@ -14,7 +14,10 @@ A simple yet powerful Android application to track your relationship milestones,
 
 ## Screenshots
 
-*(Add your screenshots here later)*
+<img width="572" height="1280" alt="image" src="https://github.com/user-attachments/assets/bfd8fb6b-6578-4e7a-8642-c47d6a3069ff" />
+<img width="572" height="1280" alt="image" src="https://github.com/user-attachments/assets/9d0791cb-3f89-4784-87a4-8c7c79406332" />
+<img width="572" height="1280" alt="image" src="https://github.com/user-attachments/assets/8c0c0828-ee66-425a-b853-900c7cd73f2e" />
+
 
 ## Getting Started
 

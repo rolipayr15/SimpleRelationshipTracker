@@ -4,18 +4,18 @@ A simple yet powerful Android application to track your relationship milestones,
 
 ## Features
 
-- **❤️ Relationship Counter**: Track exactly how long you've been together in years, months, and days.
-- **📅 Event Calendar**: Manage and keep track of upcoming anniversaries, dates, and special events.
-- **🗺️ Map Integration**: Save and view significant locations on an interactive map.
-- **🕒 Time Synchronization**: Stay in sync with global time using external Time APIs.
-- **🌍 Multi-language Support**: Built-in support for English and Russian.
-- **🤖 Auto-translation**: Features advanced on-device translation capabilities for event details.
-- **⚙️ Customizable APIs**: Configure your own Map and Time API providers for maximum flexibility.
+- **Relationship Counter**: Track exactly how long you've been together in years, months, and days.
+- **Event Calendar**: Manage and keep track of upcoming anniversaries, dates, and special events.
+- **Map Integration**: Save and view significant locations on an interactive map.
+- **Time Synchronization**: Stay in sync with global time using external Time APIs.
+- **Multi-language Support**: Built-in support for English and Russian.
+- **Auto-translation**: Features advanced on-device translation capabilities for event details.
+- **Customizable APIs**: Configure your own Map and Time API providers for maximum flexibility.
 
 ## Screenshots
 
 <details>
-<summary>📸 Click to view screenshots</summary>
+<summary>Click to view screenshots</summary>
 
 <img width="200" height="auto" alt="image" src="https://github.com/user-attachments/assets/bfd8fb6b-6578-4e7a-8642-c47d6a3069ff" />
 <img width="200" height="auto" alt="image" src="https://github.com/user-attachments/assets/9d0791cb-3f89-4784-87a4-8c7c79406332" />

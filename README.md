@@ -53,4 +53,4 @@ A simple yet powerful Android application to track your relationship milestones,
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-*Developed by gaylord*
+*Developed by Dmitry | rolipaye15 | BardOwOeSalo/r15*

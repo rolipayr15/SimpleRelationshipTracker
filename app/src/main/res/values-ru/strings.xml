@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Relationship Tracker | Simple Apps</string>
+    <string name="nav_home">Счетчик</string>
+    <string name="nav_calendar">Календарь</string>
+    <string name="nav_settings">Настройки</string>
+
+    <string name="set_start_date">Установить дату начала</string>
+    <string name="select_location">Выбрать место на карте</string>
+    <string name="change_language">Изменить язык</string>
+
+    <string name="years_label">%d лет</string>
+    <string name="months_label">%d месяцев</string>
+    <string name="days_full">%d дней</string>
+    <string name="timezone_label">Часовой пояс: %s</string>
+    <string name="last_sync_label">Синхронизация: %s</string>
+    <string name="last_sync_never">Синхронизация: Никогда</string>
+    <string name="set_start_date_hint">Установите дату начала</string>
+
+    <string name="sync_button">Синхрон.</string>
+    <string name="synced_successfully">Успешно синхронизировано</string>
+    <string name="sync_failed">Ошибка синхронизации</string>
+    <string name="network_error">Ошибка сети</string>
+
+    <string name="add_event">Добавить событие</string>
+    <string name="event_name_hint">Название события</string>
+    <string name="select_date">Выбрать дату</string>
+    <string name="select_time">Выбрать время</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+
+    <string name="upcoming_events">Ближайшие события</string>
+    <string name="no_upcoming_events">Нет ближайших событий</string>
+    <string name="days_left">Осталось дней: %d</string>
+    <string name="hours_left">Осталось часов: %d</string>
+    <string name="starts_soon">Скоро начнется!</string>
+
+    <string name="language_en">English</string>
+    <string name="language_ru">Русский</string>
+    <string name="auto_translate">Автоперевод</string>
+    <string name="translating">Перевод…</string>
+    <string name="downloading_model">Загрузка языковой модели…</string>
+    <string name="select_target_language">Выберите целевой язык</string>
+    <string name="search_language">Поиск языка…</string>
+    <string name="edit_api">Редактировать API</string>
+    <string name="read_logs">Чтение логов</string>
+    <string name="delete_translation">Удалить перевод</string>
+    <string name="map_api_url">URL API карт</string>
+    <string name="time_api_url">URL API времени</string>
+    <string name="api_key_optional">API ключ (опционально)</string>
+    <string name="copy_logs">Копировать логи</string>
+    <string name="logs_copied">Логи скопированы в буфер обмена</string>
+    <string name="delete_confirm">Вы уверены, что хотите удалить этот перевод?</string>
+
+    <string name="nav_header_title">Relationship Tracker | Simple Apps</string>
+    <string name="nav_header_subtitle">Добро пожаловать</string>
+    <string name="nav_header_desc">Заголовок навигации</string>
+    <string name="menu_transform">Трансформация</string>
+    <string name="menu_reflow">Перетекание</string>
+    <string name="menu_slideshow">Слайд-шоу</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="fab_content_description">Кнопка действия</string>
+</resources>

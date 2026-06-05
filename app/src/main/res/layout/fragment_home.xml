@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_counter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stateListAnimator="@null"
+                style="@style/Widget.Material3.CardView.Filled"
+                app:cardCornerRadius="28dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="32dp"
+                    android:gravity="center">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/text_years"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="0 years"
+                        android:gravity="center"
+                        android:textAppearance="?attr/textAppearanceHeadlineLarge"
+                        android:textColor="?attr/colorPrimary"
+                        android:textStyle="bold"
+                        app:autoSizeTextType="uniform"
+                        app:autoSizeMinTextSize="24sp"
+                        app:autoSizeMaxTextSize="44sp"
+                        app:autoSizeStepGranularity="2sp"
+                        android:maxLines="1" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/text_months"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="0 months"
+                        android:gravity="center"
+                        android:textAppearance="?attr/textAppearanceHeadlineLarge"
+                        android:textColor="?attr/colorPrimary"
+                        android:textStyle="bold"
+                        app:autoSizeTextType="uniform"
+                        app:autoSizeMinTextSize="24sp"
+                        app:autoSizeMaxTextSize="44sp"
+                        app:autoSizeStepGranularity="2sp"
+                        android:maxLines="1" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/text_days"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="0 days"
+                        android:gravity="center"
+                        android:textAppearance="?attr/textAppearanceHeadlineMedium"
+                        android:textColor="?attr/colorSecondary"
+                        android:layout_marginTop="8dp"
+                        app:autoSizeTextType="uniform"
+                        app:autoSizeMinTextSize="18sp"
+                        app:autoSizeMaxTextSize="32sp"
+                        app:autoSizeStepGranularity="1sp"
+                        android:maxLines="1" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:id="@+id/text_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="00:00:00"
+                        android:gravity="center"
+                        android:textAppearance="?attr/textAppearanceDisplaySmall"
+                        android:fontFamily="monospace"
+                        android:textColor="?attr/colorTertiary"
+                        android:layout_marginTop="16dp"
+                        app:autoSizeTextType="uniform"
+                        app:autoSizeMinTextSize="20sp"
+                        app:autoSizeMaxTextSize="40sp"
+                        app:autoSizeStepGranularity="1sp"
+                        android:maxLines="1" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_events"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:stateListAnimator="@null"
+                style="@style/Widget.Material3.CardView.Elevated"
+                app:cardCornerRadius="24dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/upcoming_events"
+                        android:textAppearance="?attr/textAppearanceTitleMedium"
+                        android:textColor="?attr/colorPrimary"
+                        android:layout_marginBottom="12dp"/>
+
+                    <LinearLayout
+                        android:id="@+id/layout_events_list"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="80dp"
+                android:stateListAnimator="@null"
+                style="@style/Widget.Material3.CardView.Elevated"
+                app:cardCornerRadius="24dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="24dp">
+
+                    <TextView
+                        android:id="@+id/text_timezone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Timezone: UTC"
+                        android:textAppearance="?attr/textAppearanceBodyMedium"
+                        android:drawableStart="@drawable/ic_location"
+                        android:drawablePadding="8dp" />
+
+                    <TextView
+                        android:id="@+id/text_last_sync"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Last sync: Never"
+                        android:textAppearance="?attr/textAppearanceBodySmall"
+                        android:drawableStart="@drawable/ic_sync"
+                        android:drawablePadding="8dp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab_sync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:text="@string/sync_button"
+        app:icon="@drawable/ic_sync"
+        android:textColor="?attr/colorOnPrimaryContainer"
+        app:iconTint="?attr/colorOnPrimaryContainer"
+        app:backgroundTint="?attr/colorPrimaryContainer"
+        android:stateListAnimator="@null" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
